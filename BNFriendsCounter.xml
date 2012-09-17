@@ -25,12 +25,12 @@
  		</Layers>
  		<Scripts>
 			<OnLoad>
-				self:RegisterEvent("BN_FRIEND_LIST_SIZE_CHANGED")
-				FriendsTabHeaderSoRButton:Hide()
-				BNFriendsCounter_OnEvent()
+				self:RegisterEvent("BN_FRIEND_LIST_SIZE_CHANGED");
+				self:RegisterEvent("SOR_BY_TEXT_UPDATED");
+				BNFriendsCounter_OnEvent();
 			</OnLoad>
 			<OnClick>
-				FriendsTabHeaderSoRButton:Click()
+				FriendsTabHeaderSoRButton:Click();
 			</OnClick>
 			<OnEvent function="BNFriendsCounter_OnEvent" />
 		</Scripts>
