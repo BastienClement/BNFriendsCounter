@@ -1,0 +1,5 @@
+## Interface: 50001
+## Title: BNet Friends Counter
+## Notes: A simple Battle.net friends counter
+BNFriendsCounter.lua
+BNFriendsCounter.xml
